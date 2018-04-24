@@ -2,5 +2,7 @@
 Use as reverse-proxy  
 proxy_pass: http://webserver:3000
 
-## version
-nginx:1.12.2-alpine
+## version 1.1
+timezone: Asia/Tokyo
+log_format: json
+base-image: nginx:1.12.2-alpine
